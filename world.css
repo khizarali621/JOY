@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+
+}
+
+.container {
+    position: relative; 
+    background: blue;
+    top: 110px
+}
+
+.main {
+    background-size: 100% 100%;
+
+
+}
+
+.main img {
+    position: absolute;
+    height: 400px;
+    width: 100%;
+}
+
+.line img {
+    position: absolute;
+    margin-top: 401px;
+    width: 100%;
+    height: 110px;
+
+}
+
+.bi1 img {
+    position: absolute;
+    height: 100px;
+    top: 400px;
+    left: 90px;
+    animation: bi 6s infinite linear;
+}
+
+@keyframes bi {
+    100% {
+        transform: translateX(1200px);
+    }
+}
+
+.cpl img {
+    position: absolute;
+    height: 150px;
+    top: 280px;
+    right: 0px;
+    animation: cpl 10s infinite linear;
+
+}
+
+@keyframes cpl {
+    100% {
+        transform: translateX(-1200px);
+    }
+}
+
+.tree img {
+    position: absolute;
+    height: 250px;
+    top: 230px;
+    left: 80%;
+}
+
+.tree1 img {
+    position: absolute;
+    height: 250px;
+    top: 230px;
+    left: 10%;
+}
+
+.balon img {
+    position: absolute;
+    height: 300px;
+    top: 100px;
+    left: -60px;
+    animation: balon 200s infinite linear;
+
+}
+
+@keyframes balon {
+    100% {
+        transform: translatey(-1200px);
+    }
+}
+
+.lovel img {
+    position: absolute;
+    height: 150px;
+    top: 220px;
+    right: 100px;
+    animation: balon 20s infinite linear;
+
+}
+
+@keyframes balon {
+    100% {
+        transform: translatey(-1200px);
+    }
+}
+
+.dil img {
+    position: absolute;
+    height: 100px;
+    top: 270px;
+    right: 100px;
+    animation: dil 10s infinite linear;
+}
+
+@keyframes dil {
+    100% {
+        transform: translatex(-1200px);
+    }
+}
+
+
+.ferris img {
+    position: absolute;
+    height: 520px;
+    left: 240px;
+    animation: gol 10s linear infinite;
+    animation-duration: s;
+    top: -130px;
+}
+
+@keyframes gol {
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+
+.legs img {
+    position: absolute;
+    height: 520px;
+    left: 270px;
+    animation: 4s linear infinite;
+    top: -130px;
+}
+
+.gols img {
+    position: absolute;
+    height: 320px;
+    left: 670px;
+    animation: gols 100s linear infinite;
+    top: 140px;
+}
+
+@keyframes gols {
+    100% {
+        transform: translateY(-1200px)
+    }
+}
+
+
+.paris img {
+    position: absolute;
+    height: 10 px;
+    top: -50px;
+    right: -230px;
+    an
+}
+
+.we img {
+    position: absolute;
+    height: 70px;
+    left270px;
+    animation: we 14s linear infinite;
+    top-130px;
+}
+
+@keyframes we {
+    100% {
+        transform: translatex(1200px)
+    }
+}
